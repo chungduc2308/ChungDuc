@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisteredActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/signup">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/avakhunglong"/>
+    </LinearLayout>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/ic_baseline_account_box_24"
+        android:hint="@string/usename"
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:hint="@string/password"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:hint="@string/retype_password"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:hint="@string/email"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonstyleigradient"
+        android:textColor="#fff"
+        android:text="Sign up"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left">
+        <TextView
+
+            android:textColor="#fff"
+            android:layout_marginTop="120dp"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:textSize="18dp"
+            android:text="Design by: Bùi Chung Đức" />
+    </LinearLayout>
+</LinearLayout>

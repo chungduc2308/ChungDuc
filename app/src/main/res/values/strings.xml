@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyProfile</string>
+    <string name="username">username</string>
+    <string name="password">Password</string>
+    <string name="usename">Usename</string>
+    <string name="not_registered">Not Registered</string>
+    <string name="email">Email</string>
+    <string name="retype_password">Retype Password</string>
+</resources>
